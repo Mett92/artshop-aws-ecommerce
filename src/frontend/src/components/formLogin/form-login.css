@@ -1,0 +1,33 @@
+.input-text {
+    margin-bottom: 4%;
+    width: 300px;
+    padding: 8px;
+}
+
+.input-text-error {
+    margin-bottom: 4%;
+    width: 300px;
+    padding: 8px;
+
+    border: 1px solid #f02849;
+}
+
+.login__separation-line {
+    border: 0.7px solid rgba(0, 0, 0, 0.333);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.login__error-message {
+    color: #f02849;
+    font-size: var(--font-size-input-error);
+    width: 300px;
+}
+
+.submit-button {
+    margin-top: 2%;
+    padding: 8px;
+    width: 100%;
+}

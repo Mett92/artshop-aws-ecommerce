@@ -1,0 +1,9 @@
+.header__container {
+    margin: auto;
+    width: 90%;
+    
+}
+
+.header__title {
+    font-size: var(--font-size-section-header);
+}

@@ -1,0 +1,9 @@
+.App {
+  font-family: var(--font-family);
+  color: black;
+  background-color: white;
+}
+
+body {
+  margin: 0px
+}

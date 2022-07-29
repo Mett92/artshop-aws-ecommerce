@@ -1,0 +1,29 @@
+.navbar{
+    background-color: rgb(51, 51, 51);
+    
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar__link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.navbar__link-container a:hover {
+    color: white;
+    transition: 0.8s;
+}
+
+.navbar__link-container a {
+    transition: 0.8s;
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    padding: 15px;
+    margin-right: 15px;
+}

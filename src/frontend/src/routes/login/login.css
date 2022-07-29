@@ -1,0 +1,17 @@
+.login__container {
+    margin: auto;
+    width: 85%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.login__description-container {
+    margin-right: 5%;
+    font-size: var(--font-size-section-subtitle);
+}
+
+.login__form-container {
+
+}
