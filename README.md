@@ -124,4 +124,22 @@ By doing so, the catalogue service is not in charge of the image retrieval. This
 # Tests
 In my case the system is a web app in which each request has the same amount of work, so it would make less sense to use the CPU or Memory usage as a metric for the autoscale, for this reasons I selected the _requestContPerTarget_ metric.
 
+The tests are splitted into the following parts:
+- Preliminary tests
+- Scalability tests
+The tool used was __JMetric__
 
+## Preliminary tests
+The goal of this phase was to stress a single instance of each service in order to find a threshold that, if overstepped, the instace reaches its critical capacity. This entails:
+- The missed response of the server’s instance
+- The substantial increase of the average response time It is just around this threshold that the autoscaling acts.
+
+## Scalability tests
+In this second phase the goal was to find out, for each service, the right values A and B such that:
+- If 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝐶𝑜𝑛𝑡𝑃𝑒𝑟𝑇𝑎𝑟𝑔𝑒𝑡 ≥ 𝐵 , the service scales out
+- If 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝐶𝑜𝑛𝑡𝑃𝑒𝑟𝑇𝑎𝑟𝑔𝑒𝑡 ≤ 𝐴 , the service scales in
+I set B by picking values from the range 66%-70% of the critical threshold and set A to around the 29%-33% of the critical threshold, changing the workload each time. I followed the schema WU, RU_1, RU_2, S, RD_1, RD_2, RD_3; the below graph illustrates the workload pace
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/71827432/181819265-ccd5bad8-0ffd-4416-92e0-7f23083aa67f.png" width="600">
+</div>
