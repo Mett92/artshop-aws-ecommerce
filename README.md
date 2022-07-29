@@ -109,7 +109,7 @@ Instead, in the image below we can see how a service is spread across the _Avail
 __Why three availability zones?__ In order to guarantee the availability, we need to run a number of instances in each availability zone such that if one AZ fails, we still have the number of instances that serve the requests optimally.
 With two AZ we should run the optimal number of instances two times, while with three AZ, we can run a smaller number of them.
 
-## A look at how it was integrated _S3_
+## A look at how _S3_ was integrated
 ### The Sales service
 <div align="center">
 <img src="https://user-images.githubusercontent.com/71827432/181816046-44f78b42-293e-4107-8c0a-3a2ceabe83f9.png" width="400">
