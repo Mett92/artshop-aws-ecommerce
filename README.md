@@ -13,7 +13,7 @@ The main features of the app are:
 
 
 # Technologies involved
-<div>
+<div align="center">
 <img src="https://user-images.githubusercontent.com/71827432/181799244-7de4654a-10c7-4f49-ab1c-5b2b67097097.png" width="140">
 <img src="https://user-images.githubusercontent.com/71827432/181802646-17e25bc7-fc5b-4354-832e-3426d19b29ac.png" width="180">
 <img src="https://user-images.githubusercontent.com/71827432/181803015-f357c3bf-025e-4526-bd10-cf05826091a6.png" width="150">
@@ -32,7 +32,17 @@ In this project I involved many technologies as:
 - **aws-sdk**: enabled me to use the _api_ which allows me to _read/store_ the images into the _S3 Bucket_;
 - **MySQL** as DBMS.
 
-Moreover, I used many npm packages as 
+Moreover, I used many npm packages.
+
+# _aws_ services used
+The main services I used are the following services:
+- Elastic Container Service (ECS)
+- Elastic Container Registry (ECR)
+- CloudWatch
+- Application Load Balancers
+- Network Load Balancer
+- API Gateway
+- AuroraDB
 
 
 # The Design of the application
