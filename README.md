@@ -39,7 +39,7 @@ The main services I used are the following services:
 - Elastic Container Service (ECS)
 - Elastic Container Registry (ECR)
 - CloudWatch
-- Application Load Balancers
+- Application Load Balancer
 - Network Load Balancer
 - API Gateway
 - NAT Gateway
