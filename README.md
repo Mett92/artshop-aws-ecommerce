@@ -42,7 +42,10 @@ The main services I used are the following services:
 - Application Load Balancers
 - Network Load Balancer
 - API Gateway
+- NAT Gateway
 - AuroraDB
+
+In order to push the images container to the _ECR Repository_ I used the _aws cli_.
 
 
 # The Design of the application
