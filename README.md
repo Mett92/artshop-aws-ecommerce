@@ -14,7 +14,7 @@ The main features of the app are:
 
 # Technologies involved
 <div align="center">
-<img src="https://user-images.githubusercontent.com/71827432/181799244-7de4654a-10c7-4f49-ab1c-5b2b67097097.png" width="140">
+
 <img src="https://user-images.githubusercontent.com/71827432/181802646-17e25bc7-fc5b-4354-832e-3426d19b29ac.png" width="180">
 <img src="https://user-images.githubusercontent.com/71827432/181803015-f357c3bf-025e-4526-bd10-cf05826091a6.png" width="150">
 <img src="https://user-images.githubusercontent.com/71827432/181803247-bdca2c72-46d6-441b-98d2-ca7e8afc02e2.png" width="150">
