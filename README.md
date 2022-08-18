@@ -87,7 +87,7 @@ In order to deploy the services in __ECS__ with __Fargate__ I proceeded with the
 - _I deployed each service specifing the task previously created, then I created a target group and an internal ALB, attaching it to the ALB_
 - _I created two policies for each service, one for __scale-out__ and another for __scale-in__, each one with a CloudWatch alarm_. The selected metric for the autoscale was _requestContPerTarget_. This way I enabled the __autoscaling__ for each service.
 
-The diagram below descriebe at glance how the entire system works. The diagram does not take into account the _Availability Zones_.
+The diagram below describes at glance how the entire system works. The diagram does not take into account the _Availability Zones_.
 
 ![application_schema drawio](https://user-images.githubusercontent.com/71827432/181809948-0dbe9762-2213-4b57-a648-77957a47ce60.png)
 
