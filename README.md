@@ -1,6 +1,6 @@
 # What is Artshop
 
-The aim of this project was to build a web application using the Microservices archicture and to deploy it in the cloud by means of the _aws_ services.
+The aim of this project was to build a web application by using the Microservices archicture and to deploy it in the cloud by means of the _aws_ services.
 Artshop is an e-commerce web app for those who want to sell and buy artworks. An amateur or professional artist that would like to make money with his creations can sign up in the system, create an insertion and wait for someone to buy it.
 <br><br>
 The main features of the app are:
